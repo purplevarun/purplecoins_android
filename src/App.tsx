@@ -3,7 +3,7 @@ import RainbowText from "rainbow-text-react";
 const App = () => {
 	const version = "1.0.18";
 	const handleDownload = () => {
-		const fileUrl = "/purplecoins.apk";
+		const fileUrl = "/purplecoins/purplecoins.apk";
 		const fileName = `purplecoins v${version}.apk`;
 		const link = document.createElement("a");
 		link.href = fileUrl;
