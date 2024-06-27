@@ -14,11 +14,11 @@ const App = () => {
 	};
 	return (
 		<div id="page">
-			<h1>Hi there!</h1>
+			<h3>Hi there!</h3>
 			<div id="line">
-				<h1>Download </h1>
+				<h3>Download </h3>
 				<div id={"download"} onClick={handleDownload}>
-					<RainbowText colorMode={"dark"} fontSize={40}>
+					<RainbowText colorMode={"dark"} fontSize={20}>
 						purplecoins
 					</RainbowText>
 				</div>
