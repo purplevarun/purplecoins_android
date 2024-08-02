@@ -15,11 +15,11 @@ const App = () => {
 	return (
 		<div id="page">
 			<h3>Hi there!</h3>
-			<div id="line">
+			<div id="line" onClick={handleDownload}>
 				<h3>Download </h3>
-				<div id={"download"} onClick={handleDownload}>
+				<div id={"download"}>
 					<RainbowText colorMode={"dark"} fontSize={20}>
-						purplecoins
+						purplecoins.apk
 					</RainbowText>
 				</div>
 			</div>
